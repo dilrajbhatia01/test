@@ -1,0 +1,223 @@
+.table-borderless td{
+    border: 0 !important;
+}
+.table-borderless th {
+    border: 0 !important;
+}
+
+.td-more-padding-on-right {
+  padding-right: 80px;
+}
+
+.blank-row
+{
+    height: 40px !important; /* overwrites any other rules */
+    background-color: #FFFFFF;
+}
+.btn-xlarge {
+    padding: 15px 35px;
+    font-size: 20px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+        
+}
+
+
+.body-background{
+    background-color: dodgerblue;
+}
+
+#myInput {
+    background-image: url('/images/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a.header {
+    background-color: #e2e2e2; /* Add a darker background color for headers */
+    cursor: default; /* Change cursor style */
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+.thanks-font{
+    color: yellow; 
+    font-style: italic; 
+    font-family: cursive;
+}
+
+.body {
+      font: 400 15px/1.8 Lato, sans-serif !important;
+      color: #777 !important;
+  }
+.h3, h4 {
+      margin: 10px 0 30px 0 !important;
+      letter-spacing: 10px !important;      
+      font-size: 20px !important;
+      color: #111 !important;
+  }
+.container {
+      padding: 80px 120px !important;
+  }
+      
+.navbar-fixed-top1 {
+    min-height: 60px !important;
+}
+
+.navbar-fixed-top {
+    min-height: 40px !important;
+}
+      
+.person {
+      border: 10px solid transparent !important;
+      margin-bottom: 25px !important;
+      width: 80% !important;
+      height: 80% !important;
+      opacity: 0.7 !important;
+  }
+.person:hover {
+      border-color: #f1f1f1 !important;
+  }
+  
+.bg-1 {
+      background: #2d2d30 !important;
+      color: #bdbdbd !important;
+  }
+.bg-1 h3 {color: #fff !important;}
+.bg-1 p {font-style: italic !important;}
+.list-group-item:first-child {
+      border-top-right-radius: 0 !important;
+      border-top-left-radius: 0 !important;
+  }
+.list-group-item:last-child {
+      border-bottom-right-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+  }
+.thumbnail {
+      padding: 0 0 15px 0 !important;
+      border: none !important;
+      border-radius: 0 !important;
+  }
+.thumbnail p {
+      margin-top: 15px !important;
+      color: #555 !important;
+  }
+
+.modal-header, h4, .close {
+      background-color: #333 !important;
+      color: #fff !important ;
+      text-align: center;
+      font-size: 30px;
+  }
+.modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+.nav-tabs li a {
+      color: #777 !important;
+  }
+.navbar {
+      font-family: Montserrat, sans-serif !important;
+      margin-bottom: 0 !important;
+      background-color: #2d2d30 !important;
+      border: 0 !important;
+      font-size: 11px !important;
+      letter-spacing: 4px !important;
+      opacity: 0.9 !important;
+  }
+.navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+.navbar-nav li a:hover {
+      color: #fff !important;
+  }
+.navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+.navbar-default .navbar-toggle {
+      border-color: transparent !important;
+  }
+.open .dropdown-toggle {
+      color: #fff !important;
+      background-color: #555 !important;
+  }
+.dropdown-menu li a {
+      color: #000 !important;
+  }
+.dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+.footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+.footer a {
+      color: #f5f5f5;
+  }
+.footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  .textarea {
+      resize: none;
+  }
+.row {
+  margin-right: -15px;
+  margin-left: 50px;
+}
+.menu-item{
+    margin-top:10px;
+    color:yellow;
+    font-family:fantasy;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 80px;
+}
+.menu-item-small{
+    margin-top:10px;
+    color:yellow;
+    font-family:fantasy;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+}
+.cafe-name{
+    color: yellow;
+    font-family: fantasy !important;
+    font-weight: 100 !important;
+    margin-top: 50px !important;
+    margin-left: 100px !important;
+}
