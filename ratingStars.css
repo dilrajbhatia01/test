@@ -35,7 +35,7 @@ h1 span {
 
 div.stars {
   width: 300px;
-  display: inline-block;
+  
 }
 
 input.star { display: none; }
